@@ -1,8 +1,5 @@
 /** @format */
-
-import React, { useState, useEffect } from "react";
-import { getAll, post, put, deleteById } from "../memdb.js";
-import log from "../App.js";
+import React from "react";
 
 export default function CustomerList(props) {
   const customers = props.customers;
